@@ -10,10 +10,10 @@ import datetime
 def todo_list(request):
     tasks = [{
                 'num': i,
-                'cr_date': "10/09/2018",
-                'due_date': "12/09/2018",
+                'cr_date': "12/09/2018",
+                'due_date': "24/09/2018",
                 'owner': "admin",
-                'mark': False if i == 0 else True} for i in range(0, 5)]
+                'mark': False if i == 0 else True} for i in range(0, 10)]
 
 
     context = {
